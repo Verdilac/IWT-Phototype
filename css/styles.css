@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background img {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: blur(4px);
+}
+.rate {
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  z-index: 5;
+  width: 45%;
+  padding: 40px 0;
+}
+
+.formLine {
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.rate h1 {
+  text-align: center;
+  color: #b0926d;
+  background-size: cover;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-shadow: navy;
+  font-weight: 700;
+ 
+}
+.rateForm {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.rateFormText {
+  display: block;
+  width: 100%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  color: #ddd;
+  background: #111;
+  margin: 16px 0;
+  outline: none;
+  border: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  transition: 0.5s;
+}
+.rateFormText:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.rateFormText {
+  resize: none;
+  height: 120px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
+}
+.rateFormButton {
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.rateFormButton:hover {
+  background: #03f4fc;
+}

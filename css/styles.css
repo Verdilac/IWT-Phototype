@@ -29,14 +29,13 @@
 
 .rate h1 {
   text-align: center;
-  color: #b0926d;
+  color: #171412;
   background-size: cover;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-shadow: navy;
   font-weight: 700;
- 
 }
-.rateForm {
+#rateForm {
   max-width: 600px;
   margin: auto;
   padding: 0 10px;
@@ -45,11 +44,12 @@
 
 .rateFormText {
   display: block;
+  border-radius: 1vh;
   width: 100%;
   padding: 20px 40px;
   box-sizing: border-box;
   color: #ddd;
-  background: #111;
+  background:white;
   margin: 16px 0;
   outline: none;
   border: 0;
@@ -63,12 +63,11 @@ textarea.rateFormText {
   resize: none;
   height: 120px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  
 }
 .rateFormButton {
   float: right;
   border: 0;
-  background: #34495e;
+  background: #171412;
   color: #fff;
   padding: 12px 50px;
   border-radius: 20px;

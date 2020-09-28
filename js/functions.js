@@ -1,3 +1,4 @@
+//getting the input elements to configure client side validation
 const appnumber = document.getElementById("appNo");
 const name = document.getElementById("name");
 const email = document.getElementById("email");
@@ -12,16 +13,19 @@ form.addEventListener("submit", (e) => {
 });
 
 function display() {
-  const app = appNO.value;
+  
   alert("submitted");
-  console.log(app);
+  
 }
-
+z
 function validateInputs() {
   const applen = appNO.length;
   const nameval = name.value;
   const emailval = email.value;
   const commentval = comment.value;
+
+  /* in each of these validation steps we are validating the input  
+  and preventing submit on a invalid input */
 
   if (appNO.value.length === 0) {
     alert("error: Appointment number is empty ");

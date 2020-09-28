@@ -1,8 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+
 }
 
+.background {
+  /* background-color: #171512; */
+}
 .background img {
   -webkit-background-size: cover;
   background-size: cover;
@@ -10,6 +18,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   filter: blur(4px);
+  background-blend-mode: lighten;
+ 
 }
 .rate {
   position: absolute;
@@ -48,8 +58,8 @@
   width: 100%;
   padding: 20px 40px;
   box-sizing: border-box;
-  color: #ddd;
-  background:white;
+  color: black;
+  background: white;
   margin: 16px 0;
   outline: none;
   border: 0;
@@ -76,4 +86,107 @@ textarea.rateFormText {
 }
 .rateFormButton:hover {
   background: #03f4fc;
+  outline: none;
+}
+
+
+/* footer section  */
+
+.footer1{  
+  background-color:  #17181b;
+  width: 100%;
+  height: 220px;
+  font-family: "Baloo Da 2", serif;
+}
+
+.footer-container{
+  width: 80%;
+  height: 80%;
+  color: #a7a7a7;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+  /* box-sizing: border-box; */
+  padding: 35px 10px; 
+}
+
+.footer-topics-1{
+  width: 30%;
+  padding: 0px 43px;
+  box-sizing: border-box;   
+}
+
+.footer-topics-2{
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 4rem; */
+}
+
+.footer-topics-1 h2{
+  margin-bottom: 15px;
+}
+
+.footer-topics-2 h2{
+  margin-bottom: 15px;
+}
+
+.footer-topics-1 p{
+  opacity: 0.7;
+  line-height: 23px;
+}
+
+.footer-topics-2 a{
+  color: #a7a7a7;
+  opacity: 0.7;
+  line-height: 25px;  
+}
+
+.footer-topics-2 a:hover{
+  color: #c29525;
+  transition: ease-out;
+}
+/*Add a logo here to the footer 1*/
+
+
+/*Editing the footer 2*/
+
+.footer2{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b0c0d;
+}
+
+.footer-content{
+  /*Space between copyright and social media*/
+  /* width: 50%;   */
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright{
+  color: #a7a7a7;
+  font-family: "Baloo Da 2", serif;
+  font-size: 12px;
+  margin: 0 5px;  
+}
+
+.social-media-list{
+  cursor: pointer;
+}
+
+.social-media-list a{
+  margin: 0 8px;
+}
+
+.social-media-list i{
+  font-size: 14px;
+  color: #a7a7a7;
+}
+
+.social-media-list i:hover{  
+  color: #5A3C92;
+  transition: ease-out;
 }

@@ -8,8 +8,15 @@
 
 }
 
+.layer {
+  background-color: #171412;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 .background {
-  /* background-color: #171512; */
+  background-color:  #171412;
 }
 .background img {
   -webkit-background-size: cover;
@@ -17,10 +24,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  filter: blur(4px);
-  background-blend-mode: lighten;
- 
+  filter: blur(3px);
+  min-width: 100%; 
+  object-fit: cover;
+  opacity: 0.35;  
+  overflow: hidden;
 }
+
 .rate {
   position: absolute;
   top: 20%;
@@ -95,7 +105,7 @@ textarea.rateFormText {
 .footer1{  
   background-color:  #17181b;
   width: 100%;
-  height: 220px;
+  height: 220x;
   font-family: "Baloo Da 2", serif;
 }
 
